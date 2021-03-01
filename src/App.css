@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+}
+
+.navigationBox{
+  padding: 1px;
+  background: rgb(99, 150, 197);
+}
+
+.navigationBox ul{
+  width: 40%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.navLink{
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navLink:hover{
+  color: rgb(175, 208, 236);
+}
+
+.titleText{
+  color: rgb(175, 200, 223);
+  margin: 30px;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  text-shadow: rgb(67, 102, 134)  5px 5px 0;
+}
+
+.sectionStyle p{
+  width: 70%;
+  margin: 0 auto;
+  opacity: 0.7;
+  color: black;
+  font-size: 2rem;
+  text-shadow: none;
+}
+
+.section{
+  padding: 1px;
+}
+
+.galleryContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container{
+  font-family: fantasy;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(175, 200, 223);
+  box-shadow: rgb(67, 102, 134) 5px 5px 0;
+  width: 300px;
+}
+
+.galleryImage{
+  width: 100%;
+}
