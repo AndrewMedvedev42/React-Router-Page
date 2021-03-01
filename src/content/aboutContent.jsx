@@ -4,9 +4,7 @@ import UseStateArray from "./database/gallery"
 function GalleryContent(){
     return(
         <section>
-            <div className="titleText">
-                <h1>Gallery</h1>
-            </div>
+            <h1 className="titleText">Gallery</h1>
             <UseStateArray />
         </section>
     )

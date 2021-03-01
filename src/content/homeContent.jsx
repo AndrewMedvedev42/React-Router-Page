@@ -7,9 +7,7 @@ function HomeContent(){
             <div className="titleText">
                 <h1>Home page</h1>
             </div>
-            <div>
-                <p>{paragraph}</p>
-            </div>
+            <p>{paragraph}</p>
         </section>
         
     )
